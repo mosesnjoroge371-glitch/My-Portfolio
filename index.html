@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MNG Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" href="./icons8-system-task-100.png" type="image/png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Fixed Navigation -->
+    <header class="nav-wrap">
+      <nav class="nav container">
+        <a class="logo" href="#home">Moses Njoroge</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home / Hero -->
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-inner container">
+          <div class="hero-text">
+            <h1 class="name">MOSES NJOROGE</h1>
+            <p class="tagline">Front-End Developer • UI/UX Enthusiast</p>
+            <p class="hero-intro">
+              I build accessible, responsive web experiences with an emphasis on
+              clean design and performance.
+            </p>
+            <a class="btn" href="#projects">View My Work</a>
+          </div>
+          <figure class="hero-photo" aria-hidden="true">
+            <img src="./download (1).jpg" alt="Profile photo of Your Name" />
+          </figure>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="about container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <figure class="about-photo">
+            <img src="./download.jpg" alt="About photo" />
+          </figure>
+          <div class="about-text">
+            <p>
+              Hello — I'm <strong>njorogemoses</strong>. I design and build
+              polished front-end experiences. I have a background in
+              <em>design / computer science</em> and a passion for turning ideas
+              into clean, usable interfaces. My goals are to keep learning, ship
+              thoughtful products, and collaborate with teams that care about
+              delightful details.
+            </p>
+
+            <h3>Skills</h3>
+            <ul class="skills">
+              <li>HTML5</li>
+              <li>CSS3 (Flexbox, Grid)</li>
+              <li>JavaScript (ES6+)</li>
+              <li>Responsive Design</li>
+              <li>Accessibility (a11y)</li>
+              <li>Figma & Prototyping</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="projects container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <img
+              src="./Movies HUB.png"
+              alt="Project One thumbnail"
+              class="project-thumb"
+            />
+            <div class="project-body">
+              <h3>Project One</h3>
+              <p class="project-desc">
+                A responsive web app with interactive UI components and smooth
+                animations.
+              </p>
+              <div class="project-actions">
+                <a class="btn btn-sm" href="#" aria-label="View Project One"
+                  >View Project</a
+                >
+                <a
+                  class="muted-link"
+                  href="#"
+                  aria-label="Source code for Project One"
+                  >Source</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="./Music Player ui.png"
+              alt="Project Two thumbnail"
+              class="project-thumb"
+            />
+            <div class="project-body">
+              <h3>Project Two</h3>
+              <p class="project-desc">
+                Design system and component library built with accessibility in
+                mind.
+              </p>
+              <div class="project-actions">
+                <a class="btn btn-sm" href="#">Live Demo</a>
+                <a class="muted-link" href="#">Source</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="./Weather Dashboard.png"
+              alt="Project Three thumbnail"
+              class="project-thumb"
+            />
+            <div class="project-body">
+              <h3>Project Three</h3>
+              <p class="project-desc">
+                A small e-commerce prototype with a focus on micro-interactions
+                and checkout flow.
+              </p>
+              <div class="project-actions">
+                <a class="btn btn-sm" href="#">Live Demo</a>
+                <a class="muted-link" href="#">Source</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact container">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p>
+              If you'd like to work together, have a question, or just want to
+              say hi — email me at:
+            </p>
+            <p class="email">
+              <a href="mailto:youremail@example.com"
+                >mosesnjoroge371@gmail.com</a
+              >
+            </p>
+            <p>
+              Or find me on:
+              <a
+                href="https://www.linkedin.com/in/njoroge-moses-293297382?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                aria-label="LinkedIn"
+                >LinkedIn</a
+              >
+              •
+              <a
+                href="https://github.com/mosesnjoroge371-glitch"
+                aria-label="GitHub"
+                >GitHub</a
+              >
+              •
+              <a
+                href="https://x.com/don_mogich?t=br3FFJi4wDov-ntaJJnb7g&s=08"
+                aria-label="Twitter"
+                >Twitter</a
+              >
+            </p>
+          </div>
+
+          <form class="contact-form" action="#" method="post" novalidate>
+            <label>
+              <span class="sr-only">Name</span>
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+
+            <label>
+              <span class="sr-only">Email</span>
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email"
+                required
+              />
+            </label>
+
+            <label>
+              <span class="sr-only">Message</span>
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your message"
+                required
+              ></textarea>
+            </label>
+
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+        <p class="footer-links">
+          <a
+            href="https://www.linkedin.com/in/njoroge-moses-293297382?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            >LinkedIn</a
+          >
+          · <a href="https://github.com/mosesnjoroge371-glitch">GitHub</a> ·
+          <a href="https://x.com/don_mogich?t=br3FFJi4wDov-ntaJJnb7g&s=08"
+            >Twitter</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!-- Small script only used to set year (optional minimal inline) -->
+    <script>
+      // tiny, safe: set copyright year
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
