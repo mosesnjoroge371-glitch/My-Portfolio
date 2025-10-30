@@ -6,8 +6,22 @@
     <link rel="shortcut icon" href="./icons8-system-task-100.png" type="image/x-icon">
     <link rel="stylesheet" href="./projects.css">
     <title>My Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
+   <!-- Fixed Navigation -->
+    <header class="nav-wrap">
+      <nav class="nav container">
+        <a class="logo" href="#home">Moses Njoroge</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <!-- Projects -->
       <section id="projects" class="projects container">
         <h2 class="section-title">My Projects</h2>
@@ -100,17 +114,7 @@
         </div>
       </section>
 
-      <section id="projects" class="project-container">
-        <h2 class="section-title">My Projects</h2>
-        <div class="projects-grid">
-          <!-- existing 3 project cards -->
-        </div>
-
-        <div class="more-projects">
-          <a href="index.html" class="btn">View More Projects</a>
-        </div>
-      </section>
-
+     
       <!-- Contact -->
       <section id="contact" class="contact container">
         <h2 class="section-title">Get in Touch</h2>
@@ -180,21 +184,23 @@
     </main>
 
     <!-- Footer -->
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <p>© <span id="year"></span> Your Name. All rights reserved.</p>
-        <p class="footer-links">
-          <a
-            href="https://www.linkedin.com/in/njoroge-moses-293297382?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            >LinkedIn</a
-          >
-          · <a href="https://github.com/mosesnjoroge371-glitch">GitHub</a> ·
-          <a href="https://x.com/don_mogich?t=br3FFJi4wDov-ntaJJnb7g&s=08"
-            >Twitter</a
-          >
-        </p>
-      </div>
-    </footer>
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> njoromoses. All rights reserved.</p>
+
+    <div class="social-icons">
+      <a href="https://github.com/mosesnjoroge371-glitch" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/njoroge-moses-293297382?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://x.com/don_mogich?t=br3FFJi4wDov-ntaJJnb7g&s=08" target="_blank" aria-label="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
+  </div>
+</footer>
 
     <!-- Small script only used to set year (optional minimal inline) -->
     <script>
