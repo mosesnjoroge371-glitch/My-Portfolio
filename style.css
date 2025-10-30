@@ -412,3 +412,6 @@ body {
     transform: none;
   }
 }
+/* Accessibility & no horizontal scroll */
+img, video { max-width:100%; height:auto; display:block; }
+html,body { overflow-x:hidden; }
