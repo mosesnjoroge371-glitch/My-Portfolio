@@ -4,7 +4,6 @@
   --card: #ffffff;
   --accent: #0066ff;
   --accent-2: #00a3ff;
-
   --text: black;
   --radius: 12px;
   --shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
@@ -171,8 +170,9 @@ body {
 /* ABOUT */
 .section-title {
   font-family: "Poppins", sans-serif;
-  font-size: 22px;
-  margin: 0 0 20px 0;
+  font-size: 45px;
+  font-weight: bold;
+  /* margin: 0 0 20px 0; */
 }
 .about-grid {
   display: grid;
