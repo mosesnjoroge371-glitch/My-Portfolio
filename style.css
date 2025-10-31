@@ -414,8 +414,16 @@ body {
   }
 }
 /* Accessibility & no horizontal scroll */
-img, video { max-width:100%; height:auto; display:block; }
-html,body { overflow-x:hidden; }
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+html,
+body {
+  overflow-x: hidden;
+}
 
 /* ===== Footer Social Icons ===== */
 .social-icons {
@@ -426,7 +434,6 @@ html,body { overflow-x:hidden; }
 }
 
 .social-icons a {
-  color: var(--text);
   font-size: 22px;
   transition: color 0.3s ease, transform 0.3s ease;
 }
@@ -448,4 +455,3 @@ html,body { overflow-x:hidden; }
   margin: 0;
   font-size: 15px;
 }
-
