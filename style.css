@@ -188,6 +188,8 @@ body {
   padding: 0;
   margin: 12px 0 0 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 10px;
 }
@@ -230,6 +232,17 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin-bottom: 10px;
+}
+
+.tech-stack span {
+  background: rgba(255, 255, 255, 0.6);
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.3px;
 }
 .project-desc {
   color: var(--muted);
